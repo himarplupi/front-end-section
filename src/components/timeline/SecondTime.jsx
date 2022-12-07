@@ -21,11 +21,11 @@ const SecondTime = () => {
           disediakan.
         </p>
         <div className='hidden lg:flex justify-center w-full items-center '>
-          <Link to='/register/bootcamp' className='mt-10'>
-            <button className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center'>
-              Daftar Bootcamp
-            </button>
-          </Link>
+          <a
+            href='http://bit.ly/SignupSection3'
+            className=' mt-5 bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center'>
+            Daftar Event
+          </a>
         </div>
       </div>
     </div>

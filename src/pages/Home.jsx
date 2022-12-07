@@ -22,15 +22,15 @@ const Home = () => {
           </p>
 
           {/* Countdown */}
-          <CountdownTimer/>
+          <CountdownTimer />
           {/* CTA */}
 
           <div className='flex justify-center flex-col md:flex-row items-center w-full gap-3 my-5'>
-            <Link to='/Register/bootcamp'>
-              <button className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 text-white rounded-lg drop-shadow-[0_1px_10px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500'>
-                Daftar Bootcamp
-              </button>
-            </Link>
+            <a
+              href='http://bit.ly/SignupSection3'
+              className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 text-white rounded-lg drop-shadow-[0_1px_10px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500'>
+              Daftar Event
+            </a>
 
             <Link
               to='/timeline'

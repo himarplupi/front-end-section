@@ -43,11 +43,6 @@ const TimeLine = () => {
                   <time className='mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
                     11 Desember 2022
                   </time>
-                  {isActive === 'timeline1' && (
-                    <button className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-2 py-2 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 text-[12px] mt-5 lg:hidden'>
-                      Daftar Seminar
-                    </button>
-                  )}
                 </div>
               </div>
             </li>
@@ -70,11 +65,6 @@ const TimeLine = () => {
                   <time className='mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
                     12 Desember 2022 - 2 Januari 2023
                   </time>
-                  {isActive === 'timeline2' && (
-                    <button className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-2 py-2 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 text-[12px] mt-5 lg:hidden'>
-                      Daftar Bootcamp
-                    </button>
-                  )}
                 </div>
               </div>
             </li>
@@ -97,11 +87,6 @@ const TimeLine = () => {
                   <time className='mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
                     2 Januari 2023 - 9 Januari 2023
                   </time>
-                  {isActive === 'timeline3' && (
-                    <button className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-2 py-2 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 text-[12px] mt-5 lg:hidden'>
-                      Daftar Competition
-                    </button>
-                  )}
                 </div>
               </div>
             </li>

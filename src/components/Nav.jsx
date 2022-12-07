@@ -72,23 +72,21 @@ const Nav = () => {
                 </li>
 
                 <div className='lg:hidden flex  justify-center w-full  items-center  '>
-                  <Link to='/register/bootcamp' className='mt-10 w-full'>
-                    <button className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center'>
-                      Daftar Bootcamp
-                    </button>
-                  </Link>
+                  <a
+                    href='http://bit.ly/SignupSection3'
+                    className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center'>
+                    Daftar Event
+                  </a>
                 </div>
               </ul>
             </div>
 
             <div className='lg:flex hidden items-center relative '>
-              <Link to='/register/bootcamp'>
-                <button
-                  onClick={() => setOffCanvas(false)}
-                  className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500'>
-                  Daftar Bootcamp
-                </button>
-              </Link>
+              <a
+                href='http://bit.ly/SignupSection3'
+                className='bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center'>
+                Daftar Event
+              </a>
             </div>
 
             <div className='flex lg:hidden ' aria-label='hamburger'>
