@@ -129,7 +129,7 @@ const Form = () => {
           <div class='flex items-center justify-between pt-8'>
             <button
               class='bg-gradient-to-r from-[#5334B1] to-[#401881] md:px-5 md:py-3 p-5 md:flex justify-center text-white rounded-lg w-full'
-              type='button'>
+              type='submit'>
               Kirim data pendaftaran
             </button>
           </div>
