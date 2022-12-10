@@ -17,10 +17,6 @@ const Nav = () => {
               <Link to='/'>
                 <img src={Logo} className='' alt='' />
               </Link>
-              {/* <div className="flex justify-center items-center bg-gray-500 w-10 h-10 mr-3 shadow-2xl">
-                E
-              </div>
-              Epictetus */}
             </div>
 
             <div
